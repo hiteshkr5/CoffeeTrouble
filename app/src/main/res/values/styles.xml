@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--This is theme and we can change our theme here in styles.xml-->
+        <!--Whenever you change the theme, make sure to update it in AndroidManifest.xml -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--When we specify style, we don't use android:style, we just use style = @style/style_name-->
+    <!--This is style changing, not theme changing-->
+    <style name="practicingStyle">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>
